@@ -1,0 +1,70 @@
+/**  Variable (Переменные)
+|============================
+:root {
+//    === Fonts ===
+//   --font-family: 'Roboto', sans-serif;
+//   --second-family: 'Kalam', sans-serif;
+//   --third-family: 'Inter', sans-serif;
+
+//    === Text color ===
+//   --black-txt: #2c2c2c;
+//   --black-second-txt: #000000;
+//   --tekst: #3d3d3d;
+//   --tekst2: #969696;
+//   --tekst3: #4a4a4a;
+//   --tekst4: #c4c4c4;
+//   --tekst5: #505050;
+//   --green-second-txt: #a7ce47;
+//   --dark-green-txt: #7eb101;
+
+//    === BG color ===
+//   --black-bg: #2c2c2c;
+//   --black-second-bg: #000000;
+//   --white-bg: #fefefe;
+//   --white-second-bg: #ffffff;
+//   --green-bg: #bbf330;
+//   --green-second-bg: #a7ce47;
+//   --dark-green-bg: #7eb101;
+//   --yellow-bg: #ffe550;
+
+//    === Shadow ===
+
+//    === Others ===
+//   --radius: 30px;
+
+//   === Transition time ===
+//   --transit: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+// }
+|============================
+*/
+
+/* ===== Variable (Переменные) =====*/
+/* Fonts */
+$font-family: 'Roboto', sans-serif;
+$second-family: 'Kalam', sans-serif;
+$third-family: 'Inter', sans-serif;
+/* Text color */
+$black-txt: #2c2c2c;
+$black-second-txt: #000000;
+$tekst: #3d3d3d;
+$tekst2: #969696;
+$tekst3: #4a4a4a;
+$tekst4: #c4c4c4;
+$tekst5: #505050;
+$green-second-txt: #a7ce47;
+$dark-green-txt: #7eb101;
+/* BG color */
+$green-bg: #bbf330;
+$dark-green-bg: #7eb101;
+$yellow-bg: #ffe550;
+$black-bg: #2c2c2c;
+$white-bg: #fefefe;
+
+$header-cl: rgba(17, 19, 25, 0.4);
+
+/* Shadow */
+/* Others */
+$radius: 30px;
+/* Transition time */
+$transit: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+// $timing-function: cubic-bezier(0.4, 0, 0.2, 1);
