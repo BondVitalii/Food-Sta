@@ -1,60 +1,57 @@
 <section class="hero-section section">
   <div class="hero-container container">
     <div class="hero-text-wrapper">
-      <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
+      <h1 class="hero-title title">Enjoy Your Favorite Food From Anywhere</h1>
       <p class="hero-desc">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
         varius enim in eros elementum tristique. Duis cursus, mi quis viverra
         ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
       </p>
-      <button class="hero-btn" type="button">Order Now</button>
+      <button class="hero-btn button-green btn" type="button">Order Now</button>
+      <div class="hero-wrapper-img">
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./images/hero/hero-image-1_desk@1x.webp 1x,
+              ./images/hero/hero-image-1_desk@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./images/hero/hero-image-1_desk@1x.jpg 1x,
+              ./images/hero/hero-image-1_desk@2x.jpg 2x
+            "
+            type="image/jpeg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./images/hero/hero-image-1_tab@1x.webp 1x,
+              ./images/hero/hero-image-1_tab@2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./images/hero/hero-image-1_tab@1x.jpg 1x,
+              ./images/hero/hero-image-1_tab@2x.jpg 2x
+            "
+            type="image/jpeg"
+          />
+          <img
+            class="hero-img"
+            src="./images/hero/hero-image-1_tab@1x.jpg"
+            alt="dish"
+            width="320"
+            height="320"
+            loading="lazy"
+          />
+        </picture>
+      </div>
     </div>
-    <div class="hero-slider">
-      <div class="hero-frame-img">
-        <img
-          class="hero-img"
-          srcset=""
-          src="./images/hero/hero-img-1_tab@1x.jpg 1x"
-          alt="Signature food"
-          width="360"
-          height="300"
-        />
-      </div>
-    </div>
-    <!-- <div class="hero-right-part">
-      <div class="hero-img swiper">
-        <div class="swiper-wrapper">
-          <img
-            class="swiper-slide"
-            src="./images/hero/hero-img-1_desk@1x.jpg"
-            alt="dish"
-          />
-          <img
-            class="swiper-slide"
-            src="./images/hero/hero-img-2_desk@1x.jpg"
-            alt="dish"
-          />
-          <img
-            class="swiper-slide"
-            src="./images/hero/hero-img-3_desk@1x.jpg"
-            alt="dish"
-          />
-        </div>
-      </div>
-      <div class="switch switch-left swiper-button-prev">
-        <img
-          class="switch-icon"
-          src="./images/icons/switch-left.svg"
-          alt="switch"
-        />
-      </div>
-      <div class="switch switch-right swiper-button-next">
-        <img
-          class="switch-icon"
-          src="./images/icons/switch-right.svg"
-          alt="switch"
-        />
-      </div>
-    </div> -->
   </div>
 </section>
