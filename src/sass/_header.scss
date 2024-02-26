@@ -27,6 +27,10 @@
   display: block;
   padding: 25.5px 0px;
   color: $black-txt;
+  &:hover,
+  &:focus {
+    color: $green-bg;
+  }
 }
 .nav-link.current {
   text-decoration: underline;
@@ -49,14 +53,12 @@
 .header-menu-icon {
   fill: inherit;
   transition: fill $transit;
-
   .header-menu-btn:active,
   .header-menu-btn:hover,
   .header-menu-btn:focus & {
     fill: $yellow-bg;
   }
 }
-
 /* ----- MAX-width: 768px ----- */
 @media screen and (max-width: 767px) {
   .header-nav,
