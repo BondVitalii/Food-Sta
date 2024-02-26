@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
 }
-
 a {
   text-decoration: none;
 }
@@ -52,10 +51,20 @@ img {
 button {
   cursor: pointer;
 }
+/* Card-set сетка для портфолио */
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $indent;
+}
+/* Формула для портфолио */
+.card-set-item {
+  flex-basis: calc((100% - $indent * ($items - 1)) / $items);
+}
 // ===== Common styles =====
 .section {
-  max-width: 1400px;
-  margin: 0px auto;
+  // max-width: 1400px;
+  // margin: 0px auto;
   padding: 60px 0px;
   outline: 1px solid green;
 }
@@ -109,13 +118,13 @@ button {
 /* ----- min-width: 320px ----- */
 @media screen and (min-width: 320px) {
   .container {
-    width: 320px;
+    max-width: 320px;
   }
 }
 /* ----- min-width: 768px ----- */
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
     padding: 0px 32px;
   }
   .title {
@@ -128,7 +137,7 @@ button {
     padding: 100px 0px;
   }
   .container {
-    width: 1280px;
+    max-width: 1280px;
     padding: 0px 16px;
   }
 }
