@@ -1,0 +1,86 @@
+.customers-section {
+  background-color: $yellow-bg;
+}
+.customers-title {
+  margin-bottom: 20px;
+}
+.customers-desc {
+  margin-bottom: 32px;
+}
+.customers-card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.customers-card-item {
+  padding: 7px 8px 9px 8px;
+  background-color: $white-bg;
+  border-radius: 0 30px 30px 30px;
+}
+.customers-stars-list {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 29px;
+}
+.customers-card-desc {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 39px;
+}
+.customers-team-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 160px;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 1px;
+    display: block;
+    width: 1px;
+    height: 100%;
+    border-radius: 2px;
+    background: $dark-green-bg;
+  }
+}
+.customers-team-caption {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(21 / 14);
+  margin-bottom: 2px;
+}
+/* ----- min-width: 768px and max-width: 1279px----- */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .customers-desc {
+    margin-bottom: 34px;
+  }
+}
+/* ----- min-width: 768px ----- */
+@media screen and (min-width: 768px) {
+  .customers-desc {
+    font-size: 16px;
+  }
+  .customers-card-list {
+    flex-direction: row;
+    gap: 32px;
+  }
+  .customers-card-item {
+    padding: 16px 12px 30px;
+  }
+  .customers-card-desc {
+    font-size: 18px;
+  }
+}
+/* ----- min-width: 1280px ----- */
+@media screen and (min-width: 1280px) {
+  .customers-card-list {
+    gap: 140px;
+  }
+  .customers-card-item {
+    max-width: 500px;
+    padding: 14px;
+  }
+}
