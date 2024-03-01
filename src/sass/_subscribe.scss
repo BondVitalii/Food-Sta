@@ -62,10 +62,9 @@
 .subscribe-btn {
   display: block;
   min-width: 103px;
-  min-height: 43px;
-  padding: 11px 22px;
+  height: 43px;
+  padding: 10px 21px;
 }
-
 /* ----- MAX-width: 767px ----- */
 @media screen and (max-width: 767px) {
   .subscribe-bg-img {
@@ -107,7 +106,7 @@
     flex-direction: row;
     gap: 24px;
   }
-  .subscribe-form-input {
+  .subscribe-form {
     width: 395px;
   }
 }
