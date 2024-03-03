@@ -1,1 +1,2 @@
-import './js/header';
+import './js/header.js';
+import './js/mobile-menu.js';
