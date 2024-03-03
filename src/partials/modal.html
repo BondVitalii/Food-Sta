@@ -1,0 +1,59 @@
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button class="modal-close-btn" type="button" data-modal-close>
+      <svg class="modal-icon" width="28" height="28">
+        <use href="./images/sprite-svg.svg#icon-close"></use>
+      </svg>
+    </button>
+    <strong class="modal-title">Order Form</strong>
+    <form class="modal-form" name="modal-form" autocomplete="off">
+      <label class="modal-form-lable" for="user-name">Name</label>
+      <div class="modal-form-group">
+        <input
+          class="modal-form-field"
+          type="text"
+          name="user-name"
+          id="user-name"
+          placeholder="Your name"
+          minlength="3"
+          maxlength="15"
+          required
+          autofocus
+        />
+      </div>
+      <label class="modal-form-lable" for="user-phone">Phone number</label>
+      <div class="modal-form-group">
+        <input
+          class="modal-form-field"
+          type="tel"
+          name="user-phone"
+          id="user-phone"
+          placeholder="+38(0_ _) _ _ _   _ _   _ _"
+          minlength="13"
+          maxlength="13"
+          required
+        />
+      </div>
+      <label class="modal-form-lable" for="user-email">E-mail</label>
+      <div class="modal-form-group">
+        <input
+          class="modal-form-field"
+          type="email"
+          name="user-email"
+          id="user-email"
+          placeholder="example@gmail.com"
+          minlength="12"
+          required
+        />
+      </div>
+      <button
+        class="modal-form-btn button-white btn"
+        type="submit"
+        disabled
+        data-modal-submit
+      >
+        Send
+      </button>
+    </form>
+  </div>
+</div>
