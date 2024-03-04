@@ -1,8 +1,15 @@
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: $white-bg;
+
   box-shadow: 0 4px 24px 0 $shadow-section;
 }
 .header.no-transparency {
-  background-color: $header-cl;
+  background-color: $white-bg-blur;
   backdrop-filter: blur(2px);
 }
 .header-container {
